@@ -63,3 +63,4 @@ try:
     conn.close()
 except Exception:
     st.write("No history found yet. Try checking a price first!")
+.
