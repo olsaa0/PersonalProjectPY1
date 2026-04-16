@@ -15,3 +15,4 @@ app.include_router(prices.router, prefix="/api/v1")
 @app.get("/")
 def home():
     return {"message": "Crypto Arbitrage Backend is Running!"}
+.
