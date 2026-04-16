@@ -4,7 +4,7 @@ from datetime import datetime
 DB_NAME = "crypto.db"
 
 def init_db():
-    """Creates the history table if it doesn't exist."""
+
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     cursor.execute('''
@@ -21,7 +21,7 @@ def init_db():
     conn.close()
 
 def save_history(symbol, api_p, scrap_p, spread):
-    """Saves a single arbitrage check to the memory bank."""
+
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     cursor.execute('''
