@@ -35,3 +35,4 @@ def compare_prices(symbol: str, threshold: float = 0.5):
         is_profitable=is_profitable,
         alert_threshold=threshold
     )
+.
