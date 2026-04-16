@@ -36,3 +36,4 @@ if __name__ == "__main__":
     test = get_scraped_price("BTC")
     if test:
         print(f"Scraper found {test.symbol} at ${test.price}")
+.
