@@ -17,3 +17,4 @@ class ArbitrageResult(BaseModel):
     spread_percentage: float
     is_profitable: bool
     alert_threshold: float
+.
